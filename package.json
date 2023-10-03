@@ -1,0 +1,78 @@
+{
+  "name": "@basd/query",
+  "version": "0.0.0",
+  "description": "A powerful library that provides a robust and fluent interface to build, parse, and execute queries.",
+  "author": "Basedwon <basedwon@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basedwon/query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/basedwon/query/issues"
+  },
+  "homepage": "https://github.com/basedwon/query#readme",
+  "main": "lib/query.js",
+  "browser": {
+    ".": "./lib/query.js"
+  },
+  "scripts": {
+    "dev:test": "nodemon -w ../.. -x npm test",
+    "dev": "nodemon -w ../.. test/query.test.js",
+    "docs": "jsdoc2md lib/*.js > docs/api.md",
+    "update": "npm run update:prod && npm run update:dev",
+    "update:prod": "npm i -S basd@latest @basd/registry@latest",
+    "update:dev": "npm i -D @basd/testr@latest",
+    "test": "testr test"
+  },
+  "dependencies": {
+    "@basd/registry": "^0.0.0",
+    "basd": "^1.0.9"
+  },
+  "devDependencies": {
+    "@basd/testr": "^0.1.2",
+    "jsdoc": "^4.0.2",
+    "jsdoc-to-markdown": "^8.0.0"
+  },
+  "keywords": [
+    "query",
+    "query-builder",
+    "query-parser",
+    "query-engine",
+    "javascript-query",
+    "database-query",
+    "query-interpreter",
+    "query-visitor",
+    "query-language",
+    "query-evaluator",
+    "query-factory",
+    "query-optimization",
+    "query-executor",
+    "query-filtering",
+    "fluent-interface",
+    "object-query",
+    "logical-query",
+    "expression-builder",
+    "abstract-syntax-tree",
+    "ast-parser",
+    "filter",
+    "evaluator",
+    "database",
+    "criteria",
+    "condition",
+    "JS",
+    "OOP",
+    "design-patterns",
+    "SOLID",
+    "interpreter",
+    "visitor-pattern",
+    "ORM",
+    "JavaScript",
+    "conditions",
+    "transformation",
+    "registry",
+    "factory",
+    "entity",
+    "AST"
+  ]
+}
