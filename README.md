@@ -10,7 +10,7 @@
 [![Twitter](https://img.shields.io/badge/@basdwon%20-%20?logo=twitter&color=%23383a40)](https://twitter.com/basdwon)
 [![Discord](https://img.shields.io/badge/Basedwon%20-%20?logo=discord&color=%23383a40)](https://discordapp.com/users/basedwon)
 
-A powerful library that provides a robust and fluent interface to build, parse, and execute queries. Designed with the principles of modularity, the library consists of a collection of classes that work in unison to create complex query expressions, translate them into an Abstract Syntax Tree (AST), and execute them. Built with modern JavaScript and extensible design patterns.
+A powerful JS library that provides a robust and fluent interface to build, parse, and execute queries. Designed with the principles of modularity, the library consists of a collection of classes that work in unison to create complex query expressions, translate them into an Abstract Syntax Tree (AST), and execute them. 
 
 ## Features
 
