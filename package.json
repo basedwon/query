@@ -1,6 +1,6 @@
 {
   "name": "@basd/query",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A powerful library that provides a robust and fluent interface to build, parse, and execute queries.",
   "author": "Basedwon <basedwon@protonmail.com>",
   "license": "MIT",
